@@ -16,7 +16,7 @@ This project is a frontend clone of the Ixigo homepage built using HTML, CSS, an
 - JavaScript
 
 ## 📷 Screenshots
-![Homepage(ixigo-homepage-clone/Images/Screenshot.png)
+- Screenshot of Homepage prsent in image folder
 
 ## 🔗 Live Demo
 (Will add after deployment)
