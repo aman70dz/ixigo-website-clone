@@ -1,0 +1,632 @@
+    body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+    #header{
+              background-color: #f8f8f8;
+              padding: 10px;
+              display: flex;
+              align-items: center;
+              border-bottom: 1px solid rgba(128, 128, 128, 0.491);
+          }
+     #logo{
+              width: 85px;
+              height: auto;
+              margin-top: 0;
+              margin-left: 10px;
+          }
+    #offer_logo
+    {
+              width: 20px;
+              height: auto;
+              margin-top: -10px;
+              margin-left: 650px;
+    }
+   #contact_logo
+   {
+            width: 25px;
+            height: auto;
+            margin-top: -10px;
+            margin-left: 30px;
+   }
+       
+   #login_logo
+   {
+            width:40px;
+            height: auto;
+            margin-top: -5px;
+            margin-left: 65px;
+   }
+   #offer_text,#contact_text, #login_text
+   {
+            margin-top: 7px;
+            margin-left: 8px;
+            cursor: pointer;
+   }
+   #flight_logo
+   {
+            width: 50px;
+            height: auto;
+            margin-top: 30px;
+            margin-left: 50px;
+   }
+   #flight_text
+    { margin-left: 110px;
+      margin-top: -30px;
+    }
+   #hotel_logo
+    {
+            width: 50px;
+            height: auto;
+            margin-top: -50px;
+            margin-left: 200px;
+    }
+    #hotel_text
+    { margin-left: 260px;
+          margin-top: -35px;
+    }
+    #hotelA
+    {text-decoration: none;}
+    #train_logo
+    {
+            width: 50px;
+            height: auto;
+            margin-top: -50px;
+            margin-left: 350px;
+    }
+    #train_text
+        { margin-left: 410px;
+          margin-top: -35px;
+        }
+
+        #bus_logo{
+            width: 50px;
+            height: auto;
+            margin-top: -50px;
+            margin-left: 500px;
+        }
+        #bus_text
+        { margin-left: 560px;
+          margin-top: -35px;
+        }
+        #flightA, #hotelA, #trainA, #busA
+        {text-decoration: none;}
+
+        #header_nav h3{
+            margin-left: 87%;
+            margin-top: -20px;
+            font-size: 18px;
+        }
+        #search_div
+        {
+         border-radius: 15px;
+         box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+         width: 97%;
+         height: 260px;
+         margin-left: 20px;
+       }
+       #oneway,#roundtrip
+       {
+         background-color: rgba(255, 255, 255, 0);
+         border: 1px solid black;
+         width: 100px;
+         height: 40px;
+         border-radius: 20px;
+         margin-left: 15px;
+         cursor: pointer;
+       }
+       #from
+       {
+         height:60px;
+         width:235px;
+         margin:0;
+         margin-top:10px;
+         margin-left: 20px;
+         border: 0 solid black;
+         border-radius: 10px 0 0 10px;
+         background: rgba(128, 128, 128, 0.1);
+       }
+       #to
+       {
+         height:60px;
+         width:235px;
+         margin:0;
+         margin-top:10px;
+         border: 0 solid black;
+         
+         background: rgba(128, 128, 128, 0.1);    
+       }
+        #departure
+        {
+           height:60px;
+           width:155px;
+           margin:0;
+           margin-top:10px;
+           border: 0 solid black;
+           
+           background: rgba(128, 128, 128, 0.1);    
+        }
+            #return
+            {
+              height:60px;
+              width:155px;
+              margin:0;
+              margin-top:10px;
+              border: 0 solid black;
+              
+              background: rgba(128, 128, 128, 0.1);
+            }
+        #search
+       {
+         height:60px;
+         width:160px;
+	 border: 0;
+         border-radius: 0 10px 10px 0;
+         background-color: #Fc790D;
+         color: white;
+         cursor: pointer;
+         font-size: 28px;
+	 position: relative;
+	 top: 5px;
+       }
+       #Pfair
+       {
+         margin-left: 20px;
+         margin-top: 20px;
+         font-size: 18px;
+       }
+         #Pfair2
+         {
+            font-size: 17px;
+            color: rgba(128, 128, 128, 0.8);
+         }
+         #student, #senior, #armedforce
+         {
+           
+           margin-left: 20px;
+           margin-top: 10px;
+          
+           background-color: white;
+           border: 1px solid black;
+           
+           padding: 10px 20px;
+           border-radius: 15px;
+           cursor: pointer;
+         }
+         #student
+         {
+            width: 70px;
+            height: 30px;
+           padding: 2px 5px;
+         }
+
+        #senior,#armedforce
+         {
+            width: 100px;
+            height: 30px;
+           padding: 2px 5px;
+         }
+        #tickbox{
+		    height: 80px;
+		    margin-top: 20px;
+                    display:flex;
+                    align-items:center;
+                    background: rgba(128, 128, 128, 0.1);
+                }
+
+#checkbox1{
+    width:20px;
+    height:20px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+#labelcheckbox{
+    margin-left:10px;
+    margin-top: 15px;
+    color:black;
+    font-size:16px;
+}
+
+#benefits{
+    display:flex;
+    margin-left:20px;
+    padding:0;
+}
+
+#benefits li{
+    margin-right:20px;
+    margin-top: 15px;
+    color:gray;
+    font-size:16px;
+}
+       #badge_logo
+       {
+         width: 40px;
+         height: auto;
+         margin-top: 0;
+         margin-left: 230px;
+       }
+       
+       #icon
+        {
+            height:140px;
+            width:97%;
+            margin-top:20px;
+            margin-left:20px;
+            border-radius: 15px;
+         box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        #iconH
+        {
+            margin-left: 20px;
+            margin-top: 50px;
+            font-size: 18px;
+        }
+        .icon_item
+        {
+            display:inline-block;
+            width: 20px;
+            height: 20px;
+            margin-top:20px;
+        }
+        #flight_icon,#credit_icon,#ship_icon,#visa_icon,#group_icon,#plan_icon,#alert_icon
+        {margin:0;}
+        #flight_icon
+        {margin-left:50px;}
+        #credit_icon
+        {margin-left:130px;}
+        #ship_icon
+        {margin-left:140px;}
+        #visa_icon
+        {margin-left:160px;}
+        #group_icon
+        {margin-left:170px;}
+        #plan_icon
+        {margin-left:180px;}
+	#plan_icon img
+	{
+    	 position:relative;
+         top: -20px;
+	}
+	#plan_icon p
+	{
+    	  position: relative;
+          margin-left: 10px;
+          top: -15px;
+	}
+        #alert_icon
+        {margin-left:160px;}
+	
+    
+    #offer
+    {
+        height: 210px;
+        width: 97%;
+        margin-left: 25px;
+        margin-top: 20px;
+        
+    }
+    
+
+        #flightbtn,#bankofferbtn,#hotelbtn,#cruisebtn,#trainbtn
+       {
+         background-color: rgba(255, 255, 255, 0);
+         border: 1px solid black;
+         border-radius: 20px;
+         margin-left: 200px;
+         cursor: pointer;
+       }
+       #offer_header
+       {
+            display:flex;
+            justify-content: space-between;
+            align-items:center;
+            width:97%;
+            margin-left:20px;
+            margin-top:60px;
+       }
+
+        #offerH
+        {
+            margin:0;
+            font-size:18px;
+        }
+	#offerBtn1,#offerBtn3,#offerBtn4
+         {
+            width: 60px;
+         }
+	#offerBtn2
+	{
+	   width: 90px;
+	}
+	#offerBtn1,#offerBtn2,#offerBtn3,#offerBtn4
+	{
+	   
+           height: 30px;
+           background-color: white;
+           border: 1px solid black;
+           border-radius: 15px;
+           cursor: pointer;
+	   margin-right: -700px;
+	}
+
+
+        #viewall
+        {
+            text-decoration:none;
+            color:#Fc790D;
+            font-size:16px;
+        }
+	#whyoffer{margin-top:-50px}
+
+        #whyofferimg
+        {
+            height:100px;
+            width: 97%;
+            margin-left: 25px;
+        }
+
+        #whyofferH
+        {
+            margin-left: 30px;
+            margin-top: 100px;
+            font-size: 18px;
+            display: flex;
+        }
+       
+        #hotelDeal
+        {
+            margin-top: 60px;
+            margin-left: 20px;
+            height:380px;
+            width: 97%;
+            background-color: #FFF6D6;
+            border-radius: 15px;
+            box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+
+        }
+        .hotelDealImg{
+            height:150px;
+            width: 270px;
+            border-radius: 15px;
+            display: flex;
+        }
+
+	#hotelDeal h2
+	{
+   	  position: relative;
+	  top: 52px;  	  
+	  left: 42px;
+	  height: 7px;
+	  width: 250px;
+	}
+	#hd1
+        {margin-left: 40px; margin-top: -70px;}
+        #hd2
+        {margin-left: 340px;}
+        #hd3
+        {margin-left: 630px;}
+        #hd4
+        {margin-left: 920px;}
+	#hd1,#hd2,#hd3,#hd4
+	{
+	  background-color: white;
+	  height:250px;
+	  width: 271px;
+	  border-radius: 19px;
+	}
+	#hd2,#hd3,#hd4
+	{
+	  margin-top: -250px;
+	}
+#hd1text,#hd2text,#hd3text,#hd4text
+{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#rating1
+{
+  height: 15px;
+  width: 40px;
+  margin-left:220px;
+  margin-top: -39px;
+}
+#hd1p1,#hd2p1,#hd3p1,#hd4p1
+{
+  margin-left: 10px;
+  font-size: 12px;
+  margin-top: -18px;
+}
+#hd1p2,#hd2p2,#hd3p2,#hd4p2
+{
+  margin-top: -5px;
+  margin-left: 10px;
+  border: 1px solid black;
+  width: 29px;
+  background-color:
+  black; color: white;
+  border-radius: 5px;
+  text-align:center;
+}
+#hd1p3,#hd2p3,#hd3p3,#hd4p3
+{
+  font-size: 12px;
+  margin-left: 45px;
+  margin-top: -32px;
+}
+#hd1p3A,#hd2p3A,#hd3p3A,#hd4p3A
+{
+  margin-left: 100px;
+  margin-top: -27px;
+  font-size: 12px;
+}
+#hd1p3B,#hd2p3B,#hd3p3B,#hd4p3B
+{
+  margin-left: 210px;
+  margin-top: -27px;
+}
+	#hotDealBtn1
+         {
+            width: 80px;
+            height: 30px;
+	    margin-left: 697px;
+	    top:22px;
+	}
+	#hotDealBtn2
+         {
+            width: 65px;
+            height: 30px;
+	    top:20px;
+	    margin-left: 3px;
+	}
+	#hotDealBtn3
+         {
+            width: 75px;
+            height: 30px;
+            margin-left: 70%;
+	    top:-10px;
+	 }
+	#hotDealBtn4
+         {
+            width: 77px;
+            height: 30px;
+	    margin-left: 77%;
+	    top:-40px;
+         }
+	#hotDealBtn5
+         {
+            width: 62px;
+            height: 30px;
+	    margin-left: 84%;
+	    top:-70px;
+	}
+	#hotDealBtn1,#hotDealBtn2,#hotDealBtn3,
+	#hotDealBtn4,#hotDealBtn5
+	{
+	    background-color: white;
+            border: 1px solid black;
+            border-radius: 15px;
+            cursor: pointer;
+	    position: relative;
+	}
+
+
+       #fareFrom
+        {
+            margin-top: 60px;
+            margin-left: 20px;
+            height:380px;
+            width: 97%;
+            background-color: #FFF6D6;
+            border-radius: 15px;
+            box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+        }
+        .fromFareImg
+	{
+            height:150px;
+            width: 270px;
+            border-radius: 15px;
+            display: flex;
+        }
+
+	#fareFrom h2
+	{
+   	  position: relative;
+	  top: 35px;  	  
+	  left: 42px;
+	  height: 7px;
+	  width: 250px;
+	}
+	#ff1
+        {margin-left: 40px; margin-top: 30px;}
+        #ff2
+        {margin-left: 340px;}
+        #ff3
+        {margin-left: 630px;}
+        #ff4
+        {margin-left: 920px;}
+	#ff1,#ff2,#ff3,#ff4
+	{
+	  background-color: white;
+	  height:250px;
+	  width: 271px;
+	  border-radius: 19px;
+        }
+	#ff2,#ff3,#ff4
+	{
+	  margin-top: -250px;
+	}
+	#fF
+         {
+            height: 27px;
+            width:100px;
+	    margin-left: 284px;
+	    top:8px;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 15px;
+            cursor: pointer;
+	    position: relative;
+	 }
+#ff1text,#ff2text,#ff3text,#ff4text
+{
+   margin-left: 10px;
+   margin-top: 10px;
+}
+#ff1p1,#ff2p1,#ff3p1,#ff4p1
+{
+   margin-left: 10px;
+   font-size: 12px;
+   margin-top: -18px;
+}
+#ff1p1A,#ff2p1A,#ff3p1A,#ff4p1A
+{
+   margin-left: 10px;
+   margin-top: -5px;
+}
+#ff1Btn,#ff2Btn,#ff3Btn,#ff4Btn
+{
+   margin-left: 160px;
+   margin-top: -58px;
+   height: 40px;
+   width: 90px;
+   border-radius: 10px;
+   color:#Fc790D;
+   border-color:#Fc790D;
+}
+
+    .links-row {
+                    display: grid;
+                    grid-template-columns: repeat(5, 1fr);
+                    row-gap: 4px;   /* 👈 reduce this */
+                    column-gap: 20px;
+                }
+
+    .links-row a {
+                    color: gray;
+                    text-decoration: none;
+                    white-space: nowrap;
+                  }
+        
+    .links-div {
+                  margin-top:55px;
+                  font-size: 12px;
+                  margin-left:25px;
+                }
+    #travelStory img
+    {
+        height:150px;
+        width:250px;
+        border-radius:15px;
+        cursor: pointer;"
+    }
+
+    .logo
+    {text-align:center; cursor:pointer;}
+    .logo a
+    {text-decoration:none;}
+    .logo img
+    {height:50px; width:50px;}
+    .logo p
+    {margin:5px 0 0;}
