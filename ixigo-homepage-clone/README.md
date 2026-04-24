@@ -19,7 +19,7 @@ This project is a frontend clone of the Ixigo homepage built using HTML, CSS, an
 - Screenshot of Homepage prsent in image folder
 
 ## 🔗 Live Demo
-(Will add after deployment)
+https://github.com/aman70dz/ixigo-website-clone.git
 
 ## 📚 What I Learned
 - How to structure a webpage
